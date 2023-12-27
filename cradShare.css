@@ -140,6 +140,12 @@
     flex-grow: 1;
     font: 600 14px/24px Cairo, sans-serif;
 }
+.contact a.content{
+    background: var(--brandMain);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .copyBtn{
     cursor: pointer;
 }
