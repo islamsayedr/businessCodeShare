@@ -37,3 +37,10 @@ copyBtns.forEach(function(btn) {
         }, 300);
   });
 });
+
+// JavaScript code to generate the QR code
+var qrcode = new QRCode(document.getElementById("qrCode"), {
+  text: "https://islamsayedr.com", // Replace with your URL or data
+  width: 72,
+  height: 72
+});

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Card share</title>
     <link rel="stylesheet" href="cradShare.css" />
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
   </head>
   <body>
     <div class="pageContainer">
@@ -35,7 +36,7 @@
               alt=""
               class="contactIcon"
             />
-            <span class="content">الفيوم, مصر.</span>
+            <a class="content" href="https://www.google.com/maps?q=الفيوم" target="_blank">الفيوم, مصر.</a>
             <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="الفيوم, مصر."/>
           </div>
           <div class="contact">
@@ -44,7 +45,7 @@
               alt=""
               class="contactIcon"
             />
-            <a class="content">islamsayedr@gmail.com</a>
+            <a href="mailto:islamsayedr@gmail.com" class="content">islamsayedr@gmail.com</a>
             <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="islamsayedr@gmail.com"/>
           </div>
           <div class="contact">
@@ -53,7 +54,7 @@
               alt=""
               class="contactIcon"
             />
-            <a class="content">islam.alsyed@iraqs.com</a>
+            <a href="mailto:islam.alsyed@iraqs.com" class="content">islam.alsyed@iraqs.com</a>
             <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="islam.alsyed@iraqs.com"/>
           </div>
           <div class="contact">
@@ -62,12 +63,12 @@
               alt=""
               class="contactIcon"
             />
-            <a class="content">+201092124608</a>
+            <a href="tel:+201092124608" class="content">+201092124608</a>
             <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="+201092124608"/>
           </div>
           <div class="contact">
             <img src="./assets/static/webIcon.svg" alt="" class="contactIcon" />
-            <a class="content">https://islamsayed.com</a>
+            <a href="https://islamsayedr.com" class="content" target="_blank">https://islamsayedr.com</a>
             <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="https://islamsayed.com"/>
           </div>
         </div>
@@ -92,7 +93,7 @@
                     alt=""
                     class="contactIcon"
                   />
-                  <span class="content">الفيوم, مصر.</span>
+                  <a class="content" href="https://www.google.com/maps?q=الفيوم" target="_blank">الفيوم, مصر.</a>
                   <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="الفيوم, مصر."/>
                 </div>
                 <div class="contact">
@@ -101,7 +102,7 @@
                     alt=""
                     class="contactIcon"
                   />
-                  <a class="content">islam.alsyed@iraqs.com</a>
+                  <a href="mailto:islam.alsyed@iraqs.com" class="content">islam.alsyed@iraqs.com</a>
                   <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="islam.alsyed@iraqs.com"/>
                 </div>
                 <div class="contact">
@@ -110,7 +111,7 @@
                     alt=""
                     class="contactIcon"
                   />
-                  <a class="content">https://islamsayed.com</a>
+                  <a href="https://islamsayedr.com" class="content" target="_blank">https://islamsayedr.com</a>
                   <img src="./assets/static/copyIcon.svg" class="copyBtn" alt="https://islamsayed.com"/>
                 </div>
               </div>
@@ -119,20 +120,11 @@
             <div id="cardBack" class="cardBack">
               <div class="qr">
                 <img src="./assets/brand/iraqsLogo.svg" alt="" />
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="89"
-                    height="88"
-                    viewBox="0 0 89 88"
-                    fill="none"
-                  >
-                    <path
-                      d="M15.3754 11C13.3514 11 11.7087 12.6427 11.7087 14.6667V29.3333C11.7087 31.3573 13.3514 33 15.3754 33H30.0421C32.0661 33 33.7087 31.3573 33.7087 29.3333V14.6667C33.7087 12.6427 32.0661 11 30.0421 11H15.3754ZM41.0421 11V18.3333H48.3754V11H41.0421ZM59.3754 11C57.3514 11 55.7087 12.6427 55.7087 14.6667V29.3333C55.7087 31.3573 57.3514 33 59.3754 33H74.0421C76.0661 33 77.7087 31.3573 77.7087 29.3333V14.6667C77.7087 12.6427 76.0661 11 74.0421 11H59.3754ZM19.0421 18.3333H26.3754V25.6667H19.0421V18.3333ZM63.0421 18.3333H70.3754V25.6667H63.0421V18.3333ZM41.0421 25.6667V33H48.3754V25.6667H41.0421ZM11.7087 40.3333V47.6667H19.0421V40.3333H11.7087ZM26.3754 40.3333V47.6667H33.7087V40.3333H26.3754ZM41.0421 40.3333V47.6667H48.3754V40.3333H41.0421ZM48.3754 47.6667V55H55.7087V47.6667H48.3754ZM55.7087 47.6667H63.0421V40.3333H55.7087V47.6667ZM63.0421 47.6667V55H70.3754V47.6667H63.0421ZM70.3754 47.6667H77.7087V40.3333H70.3754V47.6667ZM70.3754 55V62.3333H77.7087V55H70.3754ZM70.3754 62.3333H63.0421V69.6667H70.3754V62.3333ZM70.3754 69.6667V77H77.7087V69.6667H70.3754ZM63.0421 69.6667H55.7087V77H63.0421V69.6667ZM55.7087 69.6667V62.3333H48.3754V69.6667H55.7087ZM48.3754 69.6667H41.0421V77H48.3754V69.6667ZM48.3754 62.3333V55H41.0421V62.3333H48.3754ZM55.7087 62.3333H63.0421V55H55.7087V62.3333ZM15.3754 55C13.3514 55 11.7087 56.6427 11.7087 58.6667V73.3333C11.7087 75.3573 13.3514 77 15.3754 77H30.0421C32.0661 77 33.7087 75.3573 33.7087 73.3333V58.6667C33.7087 56.6427 32.0661 55 30.0421 55H15.3754ZM19.0421 62.3333H26.3754V69.6667H19.0421V62.3333Z"
-                      fill="white"
-                    />
-                  </svg>
+
+                <div id="qrCode">
+                  
                 </div>
+
               </div>
               <span class="sub">افحص الرمز للحصول على نسخة من البطاقة</span>
             </div>

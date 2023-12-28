@@ -247,8 +247,7 @@
 }
 
 .qr div {
-    width: 88px;
-    height: 88px;
+    margin: 16px;
 }
 
 .sub {
